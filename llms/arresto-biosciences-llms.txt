@@ -1,0 +1,40 @@
+# Arresto Biosciences
+
+> Arresto Biosciences, Inc. was a privately-held, development-stage biotechnology company headquartered in Palo Alto, California, focused on medicines to treat fibrotic diseases and cancer by targeting enzymes involved in the synthesis of the extracellular matrix. It was acquired by Gilead Sciences for $225 million (announced 2010-12-20, closed Q1 2011) and no longer operates independently.
+
+## Status
+
+- **Defunct / acquired.** Arresto is not an operating company. It was absorbed into Gilead Sciences (Nasdaq: GILD) in the first quarter of 2011.
+- **No API surface.** Arresto never published a public API, developer portal, API documentation, SDKs, or any machine-readable interface.
+- **No live web presence.** The former corporate domain `arrestobio.com` has no A or NS records as of 2026-07-19. The last useful Internet Archive snapshot degrades to an error page by 2013.
+
+## Company facts
+
+- Headquarters: Palo Alto, California, United States
+- Founded: circa 2007 (described in December 2010 as having operated for "three short years")
+- Lead asset: AB0024, a humanized monoclonal antibody targeting the human lysyl oxidase-like-2 (LOXL2) protein; Phase I in idiopathic pulmonary fibrosis and Phase I in advanced solid tumors
+- Pipeline: additional preclinical candidates targeting proteins associated with inflammatory diseases
+- President & CEO: Peter Van Vlasselaer, PhD
+- Chairman of the Board: Beth Seidenberg, MD (Partner, Kleiner Perkins Caufield & Byers)
+- Investors: Kleiner Perkins Caufield & Byers, HealthCare Ventures, Northgate Capital, DAG Ventures, Abbott Biotech Ventures
+
+## Acquisition
+
+- Acquirer: Gilead Sciences, Inc.
+- Consideration: $225 million, plus potential future payments based on achievement of certain sales levels
+- Announced: 2010-12-20
+- Closed: by 2011-02-21 (referenced as a completed "recent acquisition" in Gilead's February 2011 filing)
+
+## Sources
+
+- [Gilead Sciences 8-K exhibit, acquisition press release (2010-12-22 filing)](https://www.sec.gov/Archives/edgar/data/882095/000129993310004530/exhibit1.htm)
+- [Gilead Sciences 8-K exhibit referencing the completed acquisition (2011-02-25 filing)](https://www.sec.gov/Archives/edgar/data/882095/000129993311000636/exhibit1.htm)
+- [SEC EDGAR full-text search: "Arresto Biosciences"](https://efts.sec.gov/LATEST/search-index?q=%22Arresto+Biosciences%22)
+
+## Catalog
+
+- [APIs.json profile](https://raw.githubusercontent.com/api-evangelist/arresto-biosciences/refs/heads/main/apis.yml)
+
+## Notes for agents
+
+There is nothing to integrate with. Do not attempt to resolve `arrestobio.com`, construct API base URLs, or infer endpoints for this company. Requests about Arresto's LOXL2 program after 2011 should be directed to Gilead Sciences, which continued the AB0024 / simtuzumab program.

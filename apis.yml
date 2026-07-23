@@ -1,24 +1,81 @@
 aid: arresto-biosciences
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/arresto-biosciences.png
 name: Arresto Biosciences
-description: 'Arresto Biosciences is a company surfaced as a portfolio company of kleiner-perkins and
-  added to the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: 'Arresto Biosciences, Inc. was a privately-held, development-stage biotechnology company
+  headquartered in Palo Alto, California, focused on medicines to treat fibrotic diseases and cancer by
+  targeting enzymes involved in the synthesis of the extracellular matrix. Its lead product was AB0024,
+  a humanized monoclonal antibody targeting the human lysyl oxidase-like-2 (LOXL2) protein, then in
+  Phase I studies for idiopathic pulmonary fibrosis and advanced solid tumors. Founded circa 2007 and
+  backed by Kleiner Perkins Caufield & Byers, HealthCare Ventures, Northgate Capital, DAG Ventures and
+  Abbott Biotech Ventures, Arresto was acquired by Gilead Sciences for $225 million; the deal was
+  announced December 20, 2010 and had closed by February 2011. The company no longer operates as an
+  independent entity, publishes no developer or API surface, and its former domain (arrestobio.com) no
+  longer resolves.'
 url: https://raw.githubusercontent.com/api-evangelist/arresto-biosciences/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - kleiner-perkins
+x-status: acquired
+x-status-detail: 'Acquired by Gilead Sciences (Nasdaq: GILD) for $225 million; announced 2010-12-20,
+  closed Q1 2011. No longer an independent operating company.'
+x-acquisition:
+  acquirer: Gilead Sciences, Inc.
+  acquirer_slug: gilead-sciences
+  amount_usd: 225000000
+  announced: '2010-12-20'
+  closed_by: '2011-02-21'
+  source: https://www.sec.gov/Archives/edgar/data/882095/000129993310004530/exhibit1.htm
+x-former-website: http://www.arrestobio.com
+x-investors:
+- Kleiner Perkins Caufield & Byers
+- HealthCare Ventures
+- Northgate Capital
+- DAG Ventures
+- Abbott Biotech Ventures
+x-headquarters: Palo Alto, California, United States
+x-lead-asset: AB0024, humanized monoclonal antibody targeting LOXL2
+x-api-surface: none
+x-api-surface-reason: Defunct pre-clinical biotechnology company; never published a public API,
+  developer portal, or documentation. Former domain does not resolve (no A/NS records, 2026-07-19).
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: defunct-acquired-no-api-surface
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Healthcare
+- Biotechnology
+- Biopharmaceutical
+- Life Sciences
+- Drug Discovery
+- Oncology
+- Fibrosis
+- Monoclonal Antibodies
+- Acquired
 apis: []
+common:
+- type: LLMsTxt
+  url: llms/arresto-biosciences-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
