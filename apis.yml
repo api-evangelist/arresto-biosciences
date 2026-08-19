@@ -51,7 +51,7 @@ x-api-surface-reason: Defunct pre-clinical biotechnology company; never publishe
   developer portal, or documentation. Former domain does not resolve (no A/NS records, 2026-07-19).
 x-tier: stub
 x-tier-reason: defunct-acquired-no-api-surface
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
