@@ -34,6 +34,8 @@ description: 'Arresto Biosciences, Inc. was a privately-held, development-stage 
   independent entity, publishes no developer or API surface, and its former domain (arrestobio.com) no
   longer resolves.'
 url: https://raw.githubusercontent.com/api-evangelist/arresto-biosciences/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
