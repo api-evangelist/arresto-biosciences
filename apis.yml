@@ -80,6 +80,11 @@ tags:
 - Acquired
 apis: []
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/gilead-sciences/
+  name: Gilead Sciences
+  x-relationship: acquired
+  x-evidence: "Founded circa 2007 and backed by Kleiner Perkins Caufield & Byers, HealthCare Ventures, Northgate Capital, DAG Ventures and Abbott Biotech Ventures, Arresto was acquired by Gilead Sciences for $225 million; the deal was announced December 2"
 - type: LLMsTxt
   url: llms/arresto-biosciences-llms.txt
 maintainers:
